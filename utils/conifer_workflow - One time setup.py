@@ -86,9 +86,6 @@ spark.conf.set("repo_token",repo_token)
 # DBTITLE 1,Create secret of the access token
 secret_scope = secretScope()
 
-# COMMAND ----------
-
-#access_token = "dapia7625a28e6a3ec08879ae4530f1de9e3-2"
 
 # COMMAND ----------
 
@@ -140,9 +137,3 @@ try:
 except AttributeError:
     print("function not found")
 
-
-# COMMAND ----------
-
-# %sh
-# curl --header "Authorization: Bearer dapi9888d215d7b97d2dc75e98e2dca6ae8a-2" --request GET \
-# https://adb-4247241537950157.17.azuredatabricks.net/api/2.0/secrets/scopes/list

@@ -33,12 +33,6 @@ else:
 
 secret_scope = secretScope()
 
-# COMMAND ----------
-
-# %sh
-# curl --header "Authorization: Bearer dapia7625a28e6a3ec08879ae4530f1de9e3-2" --request GET \
-# https://adb-4247241537950157.17.azuredatabricks.net/api/2.0/secrets/list \
-# --data '{"scope": "rest_api"}'
 
 # COMMAND ----------
 
